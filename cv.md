@@ -26,7 +26,7 @@ function multiply(a, b){
 ******
 ## Education
 * **College:** St. Petersburg GBPOU "Petrovsky College"
-* Courses:
+* **Courses**:
   + WayUp
   + Stepik
 ******
