@@ -1,1 +1,99 @@
-FreeMarker
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__section">
+            <h1>Vladimir Serbin</h1>
+            <h1>Junior Frontend Developer</h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Contact information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <div id="about" class="main__about">
+            <h2 class="about__title">About me</h2>
+            <div class="about__info">
+                <p class="about__text">Good day, everyone! My name is Vladimir Serbin. I'm a junior frontend developer. Be not afraid of the word "junior", despite the fact of being at the starting point of may way in this sphere, I'm surely ready to complete every your task successfully! Connect with me and we'll discuss every point of your content in order to spawn a dissent project.</p>
+                <img class="about__foto" src="assets/foto_mine.jpg" alt="foto_vladimir">
+            </div>
+        </div>
+        <div id="skills" class="main__skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>VSCode</li>
+                <li>SASS</li>
+                <li>Figma</li>
+            </ul>
+        </div>
+        <div class="main__education">
+            <h2>Education</h2>
+            <ul>
+                <li>College: St. Petersburg GBPOU “Petrovsky College”</li>
+                <li>Courses:
+                    <ol>
+                        <li>WayUp</li>
+                        <li>Stepik</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="main__languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian (native)</li>
+                <li>English (A2)</li>
+            </ul>
+        </div>
+        <div class="main__code">
+            <h2>Code Example</h2>
+            <div class="code__example">
+                <code>
+                    <pre>function multiply(a, b){<br>  return a * b<br>}</pre>
+                </code>
+            </div>
+        </div>
+        <div class="main__projects">
+            <h2>My projects</h2>
+            <ul>
+                <li><a class="projects__link" href="https://yanballas.github.io/project_sweet_bun/">Sweet Bun</a></li>
+                <li><a class="projects__link" href="https://yanballas.github.io/gitarhero/">Gitar-hero</a></li>
+            </ul>
+        </div>
+        <div id="contact" class="main__contact">
+            <h2>Contact information:</h2>
+            <ul>
+                <li>Phone: +404-404-404</li>
+                <li>E-mail: yanballas@yandex.ru</li>
+                <li>Telegram: @yanballas</li>
+                <li>Discord: yanballas</li>
+                <li>GitHub: <a class="contact__link" href="https://github.com/yanballas">yanballas</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer container">
+        <div class="footer__left">
+            <p class="footer__text">GitHub: <a class="footer__link" href="https://github.com/yanballas">yanballas</a></p>
+            <p class="footer__text">directed by yanballas in 2022 year</p>
+        </div>
+        <div class="footer__right">
+            <p><a class="footer__link" href="https://rs.school/js/">RS School</a></p>
+            <img class="footer__img" src="assets/rs_school_js.svg" alt="rs_school_logo">
+        </div>
+    </footer>
+</body>
+</html>
